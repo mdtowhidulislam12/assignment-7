@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDollarSign } from "@fortawesome/free-solid-svg-icons";
 import logo from './assets/logo.png';
 import banner from './assets/banner-main.png';
-
+import dollar from './assets/dollar.png';
 import footerLogo from './assets/logo-footer.png';
 
 import './App.css';
@@ -26,7 +26,7 @@ function App() {
             <h2 className="text-lg font-bold">
               coin 
             </h2>
-            <FontAwesomeIcon className="bg-orange-500 ml-2 px-2 py-1 rounded-full" icon={faDollarSign} />
+            <img className="w-5 ml-2" src={dollar} alt="" />
             </div>
           </div>
         </div>

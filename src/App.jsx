@@ -177,13 +177,13 @@ function App() {
               </p>
             </div>
 
-            <div className="mt-4 flex flex-col md:grid grid-cols-3 gap-1  md:text-center">
+            <div className="mt-4 flex flex-col justify-items-center md:grid grid-cols-3   md:text-center">
               <input
-                className="p-2 rounded-lg border-2 col-span-2"
+                className="p-2 rounded-lg border-2 md:col-span-2 w-full md:mr-2 "
                 type="email"
                 placeholder="Enter your email"
               />
-              <button className="bg-gradient-to-r from-red-400 to-orange-300 p-2 rounded-lg font-bold ml-2">
+              <button className="bg-gradient-to-r from-red-400 to-orange-300 p-2 rounded-lg font-bold w-full">
                 Subscribe
               </button>
             </div>

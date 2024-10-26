@@ -183,7 +183,7 @@ function App() {
                 type="email"
                 placeholder="Enter your email"
               />
-              <button className="bg-gradient-to-r from-red-400 to-orange-300 p-2 rounded-lg font-bold w-full">
+              <button className="bg-gradient-to-r from-red-400 to-orange-300 p-2 rounded-lg font-bold w-full mt-4 md:mt-0">
                 Subscribe
               </button>
             </div>

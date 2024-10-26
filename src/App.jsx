@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import AllPlayer from "./Components/AllPlayer";
 import SelectedPlayers from "./Components/SelectedPlayers";
 
+
 function App() {
   const [players, setPlayers] = useState([]);
   const [coin, setCoin] = useState(0);
@@ -16,6 +17,10 @@ function App() {
 
   const freeCoin = (credit = 0) => {
     setCoin((prevCoin) => prevCoin + credit);
+
+  if(credit){
+    alert(`You have received ${credit} coins!`)
+  }    
   };
 
   useEffect(() => {

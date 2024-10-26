@@ -177,9 +177,9 @@ function App() {
               </p>
             </div>
 
-            <div className="mt-4 flex flex-col items-center gap-4 md:text-center">
+            <div className="mt-4 flex flex-col md:grid grid-cols-3 gap-1  md:text-center">
               <input
-                className="p-2 rounded-lg border-2"
+                className="p-2 rounded-lg border-2 col-span-2"
                 type="email"
                 placeholder="Enter your email"
               />

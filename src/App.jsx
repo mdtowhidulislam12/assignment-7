@@ -226,7 +226,7 @@ function App() {
                 Subscribe to our newsletter for the latest updates.
               </p>
 
-              <div className="flex md:flex flex-col mt-4">
+              <div className="flex md:flex flex-col mt-4 text-gray-700">
                 <input
                   className=" rounded-lg p-2"
                   type="email"

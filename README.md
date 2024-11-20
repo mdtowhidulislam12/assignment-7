@@ -2,6 +2,8 @@
 
 CricketBD is a web-based application that allows users to create their Dream 11 cricket team by selecting players from a pool. Users can add and remove players while managing a coin balance for selecting players.
 
+# live link : https://cricketbd.netlify.app/ 
+
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
